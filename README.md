@@ -4,6 +4,14 @@ A collection of best practices for automated testing in a championship environme
 
 This repository is championship independent and focuses on writing tests and the testing frameworks developed at [skills17](https://github.com/skills17).
 
+## Table of Contents
+
+- [General](#general)
+- [Marks](#marks)
+- [Extra Tests](#extra-tests)
+- [Backend Specifics](#backend-specifics)
+- [Cypress Specifics](#cypress-specifics)
+
 ## General
 
 ### Allow different solutions
@@ -108,7 +116,7 @@ Across the whole championship, points for tests should be awarded equally for th
 A redistribution of the points when all tasks have been written is probably needed, since the tasks are often crafted
 by individual people lacking an overview of all points awarded.
 
-## Extra tests
+## Extra Tests
 
 Extra tests are a way to identify possible cheating by returning static values that satisfy the tests without actually implementing logic.
 Those extra tests are not distributed to competitors but only used by experts during marking.
@@ -123,7 +131,7 @@ Instead, extra tests should be copies of the normal tests but with different ass
 Competitors only get the normal tests, so they don't know about other requirements that are possibly checked in an extra test.
 If any valid implementation passes the normal tests, it should also pass the extra tests and extra tests should only fail for cheating attempts, not wrong implementations.
 
-## Backend specifics
+## Backend Specifics
 
 ### Anticipate infrastructure instability
 
@@ -142,7 +150,7 @@ might have every URL ending in `.php`. To be able to still award points in an au
 configurable with base URL and path pre- and postfix. Such solutions should however still have points deducted for not
 adhering to the URL and path scheme.
 
-## Cypress specifics
+## Cypress Specifics
 
 ### Specify entry points
 
