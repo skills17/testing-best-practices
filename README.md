@@ -100,7 +100,7 @@ An ideal task, when solved by many competitors, creates a point distribution tha
 
 - The best competitor achieves close to, but not quite 100%. This both gives the best competitor satisfaction of being
   able to almost finish, while knowing that there still are some percentage points to gain. It also lets everyone else 
-  know that the task was outrageously hard and impossible, as the winner almost completed 100%.
+  know that the task was not outrageously hard and impossible, as the winner almost completed 100%.
 - The best competitors achieve distinguishable scores that separate them. To be able to figure out the very best from 
   the best, the top scores should be incrementally harder to achieve.
 - Every serious competitor reaches at least roughly 30% of the marks. This means there are roughly 30% of points achievable by 
